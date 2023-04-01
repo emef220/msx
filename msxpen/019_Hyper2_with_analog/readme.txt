@@ -5,6 +5,8 @@ MSXPenで実行可能にするために、Analog volumeから値を読み込む�
 また、背景画像はパレット2-10を変更しています。
 PROGRAM.ASM の内容を018_Sprite_model2_with_BG2のものに入れ替えても実行可能です。
 
+パレットアニメーションのためのパレットのシフト処理をFORループで行っています。
+
 ファイル：
 AUTOEXEC.BAS // プログラム本体
 PROGRAM.ASM // HYPER2.SC5を生成するためのdb文(*1)
@@ -20,7 +22,7 @@ https://github.com/emef220/msx/blob/main/LICENSE.md
 参考情報：
 
 Twitter：
-https://twitter.com/emef220/status/1637321814992109568?s=20
+https://twitter.com/emef220/status/1640913003062386690?s=20
 
 MSXPen:
-https://msxpen.com/codes/-NQsDOzbXQKohe5hGlG2
+https://msxpen.com/codes/-NRfHq6plpZFkoRm4HRV
