@@ -5,6 +5,7 @@ SCREEN4を使ったパレットアニメーションのサンプルです。
 AUTOEXEC.BAS // プログラム本体
 PROGRAM.BIN  // SCREEN2画像
 PROGRAM.ASM  // PROGRAM.BINを生成するためのdb文　(*1)
+nMSXTile/    //nMSXTile用プロジェクトデータ格納フォルダ
 
 (*1) MSXPenのASMタブに入力しておくと、起動時にビルドしてPROGRAM.BINを生成してくれます
 
